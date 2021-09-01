@@ -1,9 +1,22 @@
 
+
 ion-content{
-  --ion-background-color:#d1d2d4;
+  --ion-background-color:white;
+  --ion-item-background: transparent !important;
 }
 
-
+ion-toolbar{
+  --ion-background-color: blue !important;
+  --opacity: 0;
+  background-color:blue;
+}
+ion-title{
+  font-weight: 700;
+  
+}
+ion-label{
+  color: black;
+}
 .wrappContent{
   height: 100%;
   width: 100%;
@@ -12,11 +25,6 @@ ion-content{
   display: flex;
   justify-content: center;
 }
-
-ion-content{
-  --ion-background-color:#d1d2d4;
-}
-
 
 .wrappContent{
   height: 100%;

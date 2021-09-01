@@ -9,9 +9,9 @@
 
 </ion-header>
 
-<ion-content class="bg-color">
+<ion-content >
 
-    <ion-card class="ion-no-margin">
+    <ion-card >
 
         <ion-card-header>
             <ion-card-title>
@@ -22,7 +22,7 @@
 up the form
               </ion-card-subtitle>
         </ion-card-header>
-             <form [formGroup]="ValidationFormUSer" (ngSubmit)="registerUser(ValidationFormUSer.value)">
+             <form class="formback" [formGroup]="ValidationFormUSer" (ngSubmit)="registerUser(ValidationFormUSer.value)">
        <ion-card-content>
            <ion-item>
                <ion-input name="names" type="text" placeholder="FullName" formControlName="names">
@@ -80,7 +80,7 @@ up the form
             </ng-container>
 
            <div class="sign-btn-wrap">
-              <ion-button  shape="round" type="submit"  fill="solid" class="sign-btn" [disabled]="!ValidationFormUSer.valid">Sign Up</ion-button>
+              <ion-button  expand="block" color="danger"  type="submit"  class="sign-btn" [disabled]="!ValidationFormUSer.valid">Sign Up</ion-button>
              </div>
 
              <!-- <div class="text-tag">
@@ -102,6 +102,7 @@ up the form
 
        </ion-card-content>
         </form>
+        <img src="../../assets/images/iot in agriculture.jpg" alt="">
     </ion-card>
 
 </ion-content>

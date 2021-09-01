@@ -9,7 +9,11 @@
 
 <ion-content>
     <ion-card class="ion-no-margin">
-      <ion-img src="assets/images/header1.png"></ion-img>
+      <ion-card-header>
+        <ion-card-title>
+          Log in
+        </ion-card-title>
+    </ion-card-header>
       <ion-card-content>
 
     <form [formGroup]="validationFormUser" (ngSubmit)="LoginUser(validationFormUser.value)">
@@ -43,11 +47,11 @@
              </div>
 
         </div>
-         <div class="password_forgot">
+         <!-- <div class="password_forgot">
             <ion-button fill="clear" class="ion-no-padding">ForgotPasword?</ion-button>
-         </div>
+         </div> -->
          <div class="sign-btn-wrap">
-            <ion-button  shape="round" type="submit"  fill="solid" class="sign-btn" [disabled]="!validationFormUser.valid" >Login</ion-button>
+            <ion-button   expand="block" color="primary" type="submit"  fill="solid" class="sign-btn" [disabled]="!validationFormUser.valid" >Login</ion-button>
            </div>
 
            <!-- <div class="text-tag">
@@ -70,6 +74,7 @@
 
 
       </form>
+      <img src="../../assets/images/iot in agriculture.jpg" alt="">
       </ion-card-content>
 
 

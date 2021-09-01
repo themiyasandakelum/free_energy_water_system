@@ -1,4 +1,4 @@
-<ion-header>
+<ion-header class="ion-no-border">
   <ion-toolbar>
     <ion-title>Dashboard</ion-title>
   </ion-toolbar>
@@ -49,14 +49,14 @@
       </ion-list>
 <ion-list>
   <ion-item>
-    <ion-label>Pump Water</ion-label>
+    <ion-label style="color: black;">Pump Water</ion-label>
     <ion-toggle [(ngModel)]="PumpWater" color="danger"></ion-toggle>
   </ion-item>
 </ion-list>
 <ion-list>
   <ion-item>
-    <ion-label>Release Water</ion-label>
-    <ion-toggle [(ngModel)]="ReleaseWater" color="danger"></ion-toggle>
+    <ion-label style="color: black;">Release Water</ion-label>
+    <ion-toggle [(ngModel)]="ReleaseWater" color="danger" class="button-outline"></ion-toggle>
   </ion-item>
 </ion-list>
 </ion-content>

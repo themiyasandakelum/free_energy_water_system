@@ -1,0 +1,41 @@
+ion-content{
+    --ion-background-color:white !important;
+    --ion-item-background: transparent !important;
+  }
+  ion-card{
+    --ion-background-color: transparent !important;
+      box-shadow: none !important;
+      background-color: transparent !important;
+  }
+  ion-header{
+    position: absolute;
+  }
+  ion-toolbar{
+    --ion-background-color: transparent;
+    --opacity: 0;
+  }
+
+  // --color-focused:#1248A0 !important;
+  ion-input{
+    color:black;
+
+  }
+ ion-icon{
+   padding-right: 6px;
+   font-size: 18px;
+ }
+
+ ion-input:hover{
+   color: #1248A0;
+ }
+.formback{
+    --ion-background-color: transparent !important;
+    box-shadow: none !important;
+    background-color: transparent !important;
+}
+ion-card-title{
+    font-weight: 700;
+    color: black;
+    margin-top: 50px
+}
+

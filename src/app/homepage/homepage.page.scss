@@ -1,7 +1,7 @@
 
-ion-content{
-    --ion-background-color:#E1EAF9 !important;
-  }
+// ion-content{
+//     --ion-background-color:#E1EAF9 !important;
+//   }
   
   ion-toolbar{
     --ion-background-color: transparent;
@@ -68,4 +68,15 @@ ion-content{
       padding-left: 5px !important;
     }
   }
-  
+  .divider{
+    border-bottom: 1px solid grey;
+    font-weight: 600;
+    color: #080808;
+  }
+  .already{
+  font-weight: 600;
+  color: #080808;
+  }
+  ion-content {
+    --background: #fff url("../../assets/images/background.jpeg") no-repeat center center / cover;
+  }

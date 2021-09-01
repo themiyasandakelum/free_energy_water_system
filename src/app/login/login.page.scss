@@ -8,10 +8,14 @@ ion-header{
   }
   
   ion-content{
-    --ion-background-color:#E1EAF9 !important;
+    --ion-background-color:white !important;
     --ion-item-background: transparent !important;
   }
-  
+  ion-card-title{
+    font-weight: 700;
+    color: black;
+    margin-top: 50px
+}
   .wrapform{
     margin-top: 15px;
   }
@@ -31,7 +35,7 @@ ion-header{
       font-size: 12px;
        // --color-focused:#1248A0 !important;
        ion-input{
-         color:#647B9D;
+         color:black;
   
        }
       ion-icon{
@@ -40,7 +44,7 @@ ion-header{
       }
   
       ion-input:hover{
-        color: #1248A0;
+        color: black;
       }
   
   
