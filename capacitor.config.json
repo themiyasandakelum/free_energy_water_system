@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "automation_water_system",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}

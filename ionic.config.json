@@ -1,0 +1,7 @@
+{
+  "name": "automation_water_system",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

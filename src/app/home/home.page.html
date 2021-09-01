@@ -1,0 +1,62 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Dashboard</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content >
+
+  <!-- <div class="wrappContent">
+
+      <div>
+        <h1>Hello World</h1>
+          <p>Home Page</p>
+      </div>
+
+  </div> -->
+ <ion-list ><circle-progress class="progress" 
+      [percent]="distence?.length"
+      [radius]="100"
+      [outerStrokeWidth]="15"
+      [innerStrokeWidth]="14"
+      [space] = "-11"
+      [outerStrokeColor]="'#4882c2'"
+      [innerStrokeColor]="'#e7e8ea'"
+      [titleFontSize]= "24"
+      [unitsFontSize]= "24"
+      [showSubtitle] = "false"
+      [animation]="true"
+      [animationDuration]="1"
+      [startFromZero]="false"
+      [responsive]="true"
+          >Water Level</circle-progress><a class="word">Water Level</a>
+    <circle-progress class="progress"
+          [percent]="progress"
+          [radius]="100"
+          [outerStrokeWidth]="15"
+          [innerStrokeWidth]="14"
+          [space] = "-11"
+          [outerStrokeColor]="'#4882c2'"
+          [innerStrokeColor]="'#e7e8ea'"
+          [titleFontSize]= "24"
+          [unitsFontSize]= "24"
+          [showSubtitle] = "false"
+          [animation]="true"
+          [animationDuration]="1"
+          [startFromZero]="false"
+          [responsive]="true"
+        ></circle-progress><a class="word">Battery Level</a>
+      </ion-list>
+<ion-list>
+  <ion-item>
+    <ion-label>Pump Water</ion-label>
+    <ion-toggle [(ngModel)]="PumpWater" color="danger"></ion-toggle>
+  </ion-item>
+</ion-list>
+<ion-list>
+  <ion-item>
+    <ion-label>Release Water</ion-label>
+    <ion-toggle [(ngModel)]="ReleaseWater" color="danger"></ion-toggle>
+  </ion-item>
+</ion-list>
+</ion-content>

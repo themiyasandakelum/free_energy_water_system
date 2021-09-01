@@ -1,0 +1,52 @@
+
+ion-content{
+  --ion-background-color:#d1d2d4;
+}
+
+
+.wrappContent{
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+ion-content{
+  --ion-background-color:#d1d2d4;
+}
+
+
+.wrappContent{
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.progress {
+  font-family: Lato;
+  height: 150px;
+  width: 150px;
+  display: flex;
+  margin-left: 60px;
+  margin-top: 15px;
+  
+
+
+}
+ion-toggle::before {
+  position: absolute;
+  content: "ON";
+  color: white;
+  font-size: 8px;
+
+  z-index: 1;
+}
+.word{
+  text-align: center;
+  color: black;
+  display: block;
+}
